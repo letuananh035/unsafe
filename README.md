@@ -18,13 +18,15 @@ For using in your own projects just add jcenter repository superset:
 
 ```groovy
 repositories {
-    jcenter()
+    maven {
+       url  "https://dl.bintray.com/letuananh035/maven"
+    }
 }
 ```
 And after it you should just add as compile dependency:
 
 ```groovy
-compile 'com.implimentz:unsafe:0.0.6'
+implementation 'com.letuananh035:unsafe:0.0.7'
 ```
 
 Usage:
