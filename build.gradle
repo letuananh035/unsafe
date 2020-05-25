@@ -3,10 +3,10 @@ version version
 
 apply plugin: 'java'
 
-sourceCompatibility = 1.6
+sourceCompatibility = 1.8
 
 ext {
-    version = '0.0.6'
+    version = '0.0.7'
 }
 
 configurations {
@@ -36,16 +36,16 @@ buildscript {
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'unsafe'
-    publishedGroupId = 'com.implimentz'
+    publishedGroupId = 'com.letuananh035'
     libraryName = 'unsafe'
     artifact = 'unsafe'
     libraryDescription = 'Unsafe wrapper for android'
-    siteUrl = 'https://github.com/iamironz/unsafe'
-    gitUrl = 'https://github.com/iamironz/unsafe'
+    siteUrl = 'https://github.com/letuananh035/unsafe'
+    gitUrl = 'https://github.com/letuananh035/unsafe'
     libraryVersion = ext.version
-    developerId = 'iamironz'
-    developerName = 'Alexander Efremenkov'
-    developerEmail = 'implimentz@gmail.com'
+    developerId = 'letuananh035'
+    developerName = 'LeTuanAnh'
+    developerEmail = 'letuananh035@gmail.com'
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
