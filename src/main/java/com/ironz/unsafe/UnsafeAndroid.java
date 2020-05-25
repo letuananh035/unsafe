@@ -250,6 +250,17 @@ public class UnsafeAndroid {
     }
 
     /**
+     * Stores an <code>int</code> field into the given object.
+     *
+     * @param offset   offset to the field within <code>obj</code>
+     * @param newValue the value to store
+     */
+    public void putInt(long offset, int newValue) {
+        unsafe.putInt(offset, newValue);
+    }
+
+
+    /**
      * Stores an <code>int</code> field into the given object,
      * using <code>volatile</code> semantics.
      *
